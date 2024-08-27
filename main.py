@@ -7,4 +7,5 @@ def factorial(n):
 number = 5
 result = factorial(number)
 
-print(f"Factorial of {nunber} is {result}")
+def test_answer():
+    assert factorial(3) == 6
